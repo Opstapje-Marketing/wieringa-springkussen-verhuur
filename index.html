@@ -2,6 +2,7 @@
 <html lang="nl">
 <head>
 <meta charset="utf-8">
+<meta name="color-scheme" content="light only">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Wierenga Springkussenverhuur</title>
 <meta name="description" content="Springkussen huren bij Wierenga Event & Springkussenverhuur. Vrolijke springkussens en mega glijbanen voor kinderfeestjes, buurtfeesten en evenementen. Vraag vrijblijvend beschikbaarheid aan.">
@@ -14,11 +15,11 @@
    PICTURE: het gekozen springkussen groot voor een gestreepte kasteelboog, wisselbaar via de rail.
    COLOUR+TYPE: logo-kleuren: kasteelblauw, oranje, staalblauw op warm wit; Nunito 900 + Nunito Sans.
    LAYOUT: product-focus hero (rail, tekst, podium, info), aanbod, werkwijze, echte foto, FAQ, aanvraagformulier. */
-:root{color-scheme:light dark;
+:root{color-scheme:light;
  --bg:light-dark(#fffaf3,#0f1731);--bg2:light-dark(#fff1de,#16204a);--card:light-dark(#ffffff,#1a2552);
  --ink:light-dark(#1b2650,#f3f1ec);--soft:light-dark(#4b5578,#bcc3da);--line:light-dark(#ecdcc6,#2a376b);
  --navy:#1d2b5a;--or:#f39231;--or2:#ffb86b;--blue:#4c78a8;--r:26px}
-:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+:root,:root[data-theme]{color-scheme:light}
 *{box-sizing:border-box;min-width:0}
 html{scroll-behavior:smooth;scroll-padding-top:84px}
 body{margin:0;background:var(--bg);color:var(--ink);font:16.5px/1.6 "Nunito Sans",system-ui,sans-serif;overflow-x:clip}
